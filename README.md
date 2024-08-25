@@ -1,15 +1,17 @@
 # Front_End
-### 1° passo
+## 1° passo
   - Foi criado a pasta `assets`. Nela serão armazenados todos os ítens vindos do design.
   - Foi criado a pasta `components`. Nela foram inserídos os seguintes arquivos:
+    
       ```
-       **header**> header.html - header.css:
+       header > header.html - header.css:
        Este componente representa o cabeçalho (menu, logo, área de busca).
-       **footer** > footer.html - foooter.css:
+      
+       footer > footer.html - foooter.css:
        Este componente representa o rodapé da aplicação.
-       **button** > button.html - button.css:
+      
+       button > button.html - button.css:
        Este componente representa os botões a serem reutilizáveis (button-primary, button-secundary)
-
       ```
   - Foi criado a pasta `style`. Nela está inserida o arquivo `main.style` onde serão feitas as principais 
     estilizações da página.
