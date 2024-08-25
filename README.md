@@ -6,7 +6,7 @@
       ```
        header > header.html - header.css:
        Este componente representa o cabeçalho (menu, logo, área de busca).
-      
+       
        footer > footer.html - foooter.css:
        Este componente representa o rodapé da aplicação.
       
