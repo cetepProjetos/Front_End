@@ -1,6 +1,6 @@
 # Front_End
 ## 1° passo
-  - Foi criado a pasta `assets`. Nela serão armazenados todos os ítens vindos do design.
+  - Foi criado a pasta `assets`. Nela serão armazenados todos os ítens vindos do design, porém não está a amostra por estar vazia.
   - Foi criado a pasta `components`. Nela foram inserídos os seguintes arquivos:
     
       ```
