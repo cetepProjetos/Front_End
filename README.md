@@ -13,7 +13,7 @@
        button > button.html - button.css:
        Este componente representa os botões a serem reutilizáveis (button-primary, button-secundary)
       ```
-  - Foi criado a pasta `style`. Nela está inserida o arquivo `main.style` onde serão feitas as principais 
+  - Foi criado a pasta `style`. Nela está inserido o arquivo `main.style` onde serão feitas as principais 
     estilizações da página.
   - Foi criado o arquivo `index.html`. Representa a principal estrutura do site, todos os aquivos CSS estão 
     ligados a este arquivo. Os demais arquivos HTML também estão sendo solicitados através do `fetch`.
