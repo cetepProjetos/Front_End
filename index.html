@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="components/button/button.css">
+    <link rel="stylesheet" href="components/footer/footer.css">
+    <link rel="stylesheet" href="components/header/header.css">
+</head>
+<body>
+    <!-- Incluindo o cabeçalho -->
+  <div id="header-placeholder"></div>
+
+
+
+  <!-- Incluindo o rodapé -->
+  <div id="footer-placeholder"></div>
+
+
+  <!-- o botão será incluido no seu devido lugar-->
+
+  <script>
+    // JavaScript para carregar componentes HTML
+    document.getElementById('header-placeholder').innerHTML = fetch('components/Header.html').then(res => res.text());
+    document.getElementById('footer-placeholder').innerHTML = fetch('components/Footer.html').then(res => res.text());
+    // document.getElementById(' ').innerHTML = fetch('components/button.html').then(res => res.text());
+  </script>
+</body>
+</html>
