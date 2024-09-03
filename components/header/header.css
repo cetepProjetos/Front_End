@@ -1,0 +1,63 @@
+.header {
+    background:linear-gradient(#6499C3, #3A63BD
+    );
+    padding: 0px 0px 0px 0px;
+    color: #ffffff;
+    align-items: center;
+    width: 364px;
+    height: 61px;
+    left: -2px;
+    border: 1px #888585;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.menu {
+    background:none;
+    border: none;
+    color: #000000;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    opacity: 90%;
+    padding: 14px 18px 14px 18px;
+
+}
+
+.logo img {
+    width: 158px;
+    height: 55px;
+    top: 3px;
+    left: 102px;
+
+}
+
+.other-icons  {
+    display: flex;
+    align-items: center;
+}
+
+
+.quest-btn {
+    background: none;
+    border: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    top: 14px;
+    left: 312px;
+    opacity: 90%;
+    
+}

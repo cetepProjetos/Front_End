@@ -14,8 +14,12 @@
        Este componente representa os botões a serem reutilizáveis (button-primary, button-secundary)
 
        banners > banner.html - banner.css - banner.js
+
+       recent-news > recent_news.html - recent_news.css - recent_news.js
+
+       top-news > top_news.html - top_news.css - top_news.js
       ```
   - Foi criado a pasta `style`. Nela está inserido o arquivo `main.style` onde serão feitas as principais 
     estilizações da página.
   - Foi criado o arquivo `index.html`. Representa a principal estrutura do site, todos os aquivos CSS e JS estão 
-    ligados a este arquivo. Os demais arquivos HTML também estão sendo solicitados através do `fetch`.
+    ligados a este arquivo. Os demais arquivos HTML e JS também estão sendo solicitados através do `fetch`.
