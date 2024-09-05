@@ -41,32 +41,49 @@ body {
     padding: 8px;
     transition: background-color 0.3s, color 0.3s;
     line-height: 30px;
-    font-weight: 400;
 }
 
 .icon-btn:hover {
     background-color: #ffffff1e;
-    border-radius: 50%;
 }
 
 .logo {
-    height: 40px;
     object-fit: contain;
+    border: none;
+    width: 158px ;
+    height: auto;
+
 }
 
 .header__center {
     flex: 1;
     display: flex;
     justify-content: center;
+    height: 55px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 344px) {
+    .header {
+        height: 55px; /* Reduz a altura do header */
+        padding: 0 0px; /* Reduz o padding lateral */
+    }
+
     .logo {
-        height: 35px;
+        height: 115px; /* Reduz o tamanho da logo */
+        width: auto;
     }
 
     .icon-btn {
-        font-size: 1.3rem;
-        padding: 6px;
+        font-size: 1.2rem; /* Reduz o tamanho dos ícones */
+        padding: 0px; /* Reduz o padding dos botões */
+    }
+
+    
+    .header__center {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
 }
