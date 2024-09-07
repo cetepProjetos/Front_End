@@ -65,7 +65,7 @@ body {
     height: 55px;
 }
 
-@media (max-width: 344px) {
+@media (max-width: 300px) {
     .header {
         height: 50px;  
         padding: 0 5px;  
