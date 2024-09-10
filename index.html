@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="/assets/style/video-banner.css">
     <link rel="stylesheet" href="/assets/style/top_news.css">
     <link rel="stylesheet" href="/assets/style/btn-event-snack.css">
+    <link rel="stylesheet" href="/assets/style/menu.css">
+
 </head>
 <body>
   
   <header class="header">
       <div class="header__left">
-          <button class="icon-btn" aria-label="Menu">             
+          <button class="icon-btn" aria-label="Menu" onclick="openMenu()">             
               <i class="menu-icon"><img src="/assets/icons/menu.png" alt=""></i>
           </button>
       </div>
@@ -25,18 +27,10 @@
               <i class="quest-icon"><img src="/assets/icons/search.png" alt=""></i>  
           </button>
       </div>  
-
   </header>
 
 
   <main class="content-placeholder">
-    <section class="video-banner">
-      <div class="video-banner__container">
-        <video autoplay loop src="/assets/banner-video/vinheta(720p).mp4"></video>
-      </div>
-      
-    </section>
-
     <section class="top-news">
       <h2 class="top-news__title">Top Notícias</h2>
         <div class="top-news__container-news">
@@ -60,19 +54,14 @@
           </article>
           <button class="top-news__news__button">Mais</button>
       </div>
-    </section>
+   </section>
 
-    <section>
-      <div class="bnt-container">
-        <div class="btn-container__flex-wrapper
-        ">
-          <div class="bnt-container__container-icon">
-            <img src="/assets/icons/list.png" alt="Ícone de lista">
-          </div>
-          <button class="bnt-container__btn">
-            <h3 class="bnt-container__btn__title">Merenda</h3>
-            <p class="bnt-container__btn__description">clique aqui para ver o calendario completo</p>
-          </button>
+  <section>
+    <div class="bnt-container">
+      <div class="btn-container__flex-wrapper
+      ">
+        <div class="bnt-container__container-icon">
+          <img src="/assets/icons/list.png" alt="Ícone de lista">
         </div>
         <div class="btn-container__flex-wrapper
         ">
@@ -85,12 +74,8 @@
           </button>
         </div>
       </div>
-    </section>
-
-  </main>
-
-  <footer class="footer-placeholder">
-
-  </footer>
+    </div>
+  </section>
+<script src="assets/script/menu.js"></script>
 </body>
 </html>
