@@ -1,0 +1,19 @@
+.video-banner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-banner__container {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.video-banner__container video {
+    width: 100%;
+    object-fit: contain;
+}
