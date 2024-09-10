@@ -4,6 +4,5 @@ function openMenu() {
 
 function closeMenu() {
     document.getElementById('sidebar').classList.remove('open');
-
     
 }
