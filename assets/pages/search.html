@@ -6,48 +6,97 @@
     <title>Página de Pesquisa com Ícone</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
+body {
+    margin: 0;
+    padding: 0;
+}
 
-        .search-box {
-            position: relative;
-            display: inline-block;
-        }
+.search-box {
+    position: relative;
+    max-width: 600px;
+    margin: 16px auto; 
+}
 
-        .search-input {
-            width: 340px;
-            height: 50px;
-            border: 1px solid #2D2D2D;
-            border-radius: 29px;
-            background-color: #B0B0B0;
-            top: 16px;
-            left: 16px;
-            
-        }
+.search-input {
+    width: 100%; 
+    height: 50px;
+    border: 1px solid #2D2D2D;
+    border-radius: 29px;
+    background-color: #B0B0B0;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
 
-        .search-icon {
-            position: absolute;
-            left: 10px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: #000000;
-            background:none;
-            border: none;
-        }
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 
-        /* Estilo para o botão de busca (à direita) */
-        .search-button {
-            position: absolute;
-            right: 10px;
-            top: 50%;
-            transform: translateY(-50%);
-            background: none;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-        }
+.search-button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 
-        .search-button:hover {
-            color: #0056b3;
-        }
+@media (min-width: 365px) {
+    .search-box {
+        width: 80%;
+    }
+
+    .search-input {
+        height: 50px; 
+    }
+}
+
+@media (max-width: 364px) {
+    .search-box {
+        width: 340px;
+    }
+
+    .search-input {
+        height: 50px; 
+    }
+
+    .search-icon {
+        left: 10px;
+    }
+
+    .search-button {
+        right: 10px;
+    }
+}
+@media (max-width: 363px) {
+    .search-box {
+        width: 340px;
+        padding: 0 10px 0 10px;
+    }
+
+    .search-input {
+        height: 50px; 
+    }
+
+    .search-icon {
+        left: 20px;
+    }
+
+    .search-button {
+        right: 20px;
+    }
+}
+
+
+
     </style>
 </head>
 <body>
