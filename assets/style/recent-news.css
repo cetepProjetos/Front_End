@@ -1,0 +1,32 @@
+.recent-news {
+    margin-top: -3.77px;
+    padding: 20px;
+
+    width: 100%;
+    height: 311px;
+
+    font-size: 1rem;
+
+    background-color: #008cff2c;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.recent-news__title {
+    font-family: 'Bitter', serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.recent-news__flex-wrapper {
+    display: flex;
+    gap: 8px;
+}
+
+.recent-news__topic {
+    font-size: 1em;
+    font-weight: 500;
+}
