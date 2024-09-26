@@ -5,7 +5,8 @@
 }
 
 body {
-    padding-top: 60px; 
+    padding-top: 60px;
+    font-family: 'Bitter', serif;
 }
 
 .container {
@@ -14,8 +15,3 @@ body {
     margin: 0 auto;
 }
 
-@media(min-width: 1400px) {
-    .container {
-        background-color: #cccccc33;
-    }
-}

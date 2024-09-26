@@ -15,7 +15,6 @@
 }
 
 .recent-news__title {
-    font-family: 'Bitter', serif;
     font-size: 1em;
     font-weight: 700;
     line-height: 19px;
@@ -66,10 +65,79 @@
     list-style: none;
 
     display: flex;
-    align-items: center;
-    gap: 5px;
+    gap: 16px;
 
     overflow-x: scroll;
     scrollbar-width: none;
 
+}
+
+.recent-news__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 15px;
+}
+
+.recent-news__figure {
+    width: 200px;
+    height: 175px;
+
+    position: relative;
+}
+
+.recent-news__figure-img {
+    width: 200px;
+    height: 130px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    box-shadow: 10px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.recent-news__figure-description {
+    width: 80%;
+    padding-left: 8px;
+    line-height: 19px;
+    height: 35px;
+
+    font-weight: 500;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recent-news__logo-send {
+    position: absolute;
+
+    z-index: 999;
+
+    top: 0;
+    right: 0;
+
+}
+
+.recent-news__reactions-flex-wrapper{
+    width: 100%;
+
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recent-news__flex-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
