@@ -141,3 +141,7 @@
     justify-content: center;
     gap: 5px;
 }
+
+.recent-news__flex-item-icon {
+    cursor: pointer;
+}
