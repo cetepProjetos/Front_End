@@ -43,9 +43,9 @@
 }
 
 .logo {
-    object-fit: contain;
+    object-fit: cover;
     width: 158px;  
-    height: auto;
+    height: 100%;
 }
 
 .header__center {

@@ -139,9 +139,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
 }
 
 .recent-news__flex-item-icon {
     cursor: pointer;
+}
+
+.recent-news__flex-item-amount {
+    font-size: 10px;
+    line-height: 12px;
+
+    user-select: none;
 }
