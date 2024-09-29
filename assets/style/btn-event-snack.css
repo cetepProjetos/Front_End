@@ -1,9 +1,9 @@
-.bnt-container {
+.btn-organizer {
     display: flex;
     flex-direction: column;
     gap: 10px;
     max-width: 600px;
-    margin: 80px auto 0;
+    margin: 80px auto;
 }
 
 .btn-container__flex-wrapper {

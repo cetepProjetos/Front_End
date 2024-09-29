@@ -1,0 +1,45 @@
+.events {
+    max-width: 600px;
+    padding: 0 10px;
+    margin: 0 auto;
+    line-height: 19.2px;
+}
+
+.events__title {
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 1px solid #A0A0A0;
+}
+
+.events__days-week {
+    display: flex;
+    gap: 30px;
+    padding: 0 5px;
+    margin: 0 10px;
+    border-radius: 8px;
+    overflow-x: scroll;
+}
+
+.events__day {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.events__day-selected {
+    font-weight: 900;
+    border-bottom: 8px solid black;
+}
+
+.events__day__date {
+    font-size: 10px;
+}
+
+@media (min-width: 450px) {
+    .events__days-week {
+        justify-content: center;
+    }
+}
