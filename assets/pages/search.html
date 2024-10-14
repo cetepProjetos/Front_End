@@ -1,110 +1,116 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Pesquisa com Ícone</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-body {
+    * {
     margin: 0;
     padding: 0;
-}
-
-.search-box {
-    position: relative;
-    max-width: 600px;
-    margin: 16px auto; 
-}
-
-.search-input {
-    width: 100%; 
-    height: 50px;
-    border: 1px solid #2D2D2D;
-    border-radius: 29px;
-    background-color: #B0B0B0;
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 16px;
     box-sizing: border-box;
-}
+    }
 
-.search-icon {
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    }
+
+    .container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    }
+
+    .back-icon {
+    width: 30px; 
     position: absolute;
-    top: 50%;
-    left: 10px;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
+    top: 16px; 
+    left: 20px; 
     cursor: pointer;
-}
-
-.search-button {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    background: none;
     border: none;
-    cursor: pointer;
-}
+    background: none;
+    }
 
-@media (min-width: 365px) {
-    .search-box {
-        width: 80%;
+    .search-bar {
+    display: flex;
+    align-items: center;
+    background-color:#D9D9D9;
+    border-radius: 999px;
+    padding: 0px;
+    padding-left: 40px; 
+    margin-left: 40px;
+    position: relative;
+    width: 298px;
+    height: 36px;
     }
 
     .search-input {
-        height: 50px; 
-    }
-}
-
-@media (max-width: 364px) {
-    .search-box {
-        width: 340px;
-    }
-
-    .search-input {
-        height: 50px; 
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
     }
 
     .search-icon {
-        left: 10px;
+    position: absolute;
+    left: 10px; 
+    width: 20px; 
+    height: 20px;
+    pointer-events: none; 
     }
 
-    .search-button {
-        right: 10px;
-    }
-}
-@media (max-width: 363px) {
-    .search-box {
-        width: 340px;
-        padding: 0 10px 0 10px;
+    .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
     }
 
-    .search-input {
-        height: 50px; 
+    .block {
+    background-color: #ccc;
+    border-radius: 8px;
     }
 
-    .search-icon {
-        left: 20px;
+    .large {
+    width: 100%;
+    height: 80px;
     }
 
-    .search-button {
-        right: 20px;
+    .small {
+    width: 45%;
+    height: 60px;
     }
-}
 
-
+    .medium {
+    width: 45%;
+    height: 80px;
+    }
 
     </style>
+    <title>Document</title>
 </head>
 <body>
+    <div class="container">
+       
+        <button class="back-icon" onclick="goToHomePage()"><img src="../icons/back_color_2.png" alt="Voltar" ></button>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar" class="search-input">
+            <img src="../icons/search.png" alt="Pesquisar" class="search-icon">
+        </div>
 
-    <div class="search-box">
-        <button class="search-icon"><img src="../icons/back_color_2.png" alt="icon-back"></button>
-        <input type="text" id="searchInput" class="search-input">
-        <button class="search-button"><img src="../icons/search_color_2.png" alt="icon-search"></button>
+        <div class="content">
+            <div class="block large"></div>
+            <div class="block small"></div>
+            <div class="block medium"></div>
+        </div>
     </div>
+
+    <script src="../script/search.js"></script>
 </body>
 </html>
